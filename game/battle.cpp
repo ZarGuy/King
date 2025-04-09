@@ -1,11 +1,11 @@
 #include <iostream>
-#include <battle.h>
+#include "battle.h"
 
 using namespace std;
 
 void startBattle(Player& player, Enemy& enemy) {
-	cout << "Battle starts agains " << player.getName() << " and " << enemy.getNmae() << endl;
-	while (player.isAlive() && enemy.isAlive) {
+	cout << "Battle starts agains " << player.getName() << " and " << enemy.getName() << endl;
+	while (player.isAlive() && enemy.isAlive()) {
 		player.attack(enemy);
 		if (!enemy.isAlive()) {
 			cout << enemy.getName() << "is defeated" << endl;

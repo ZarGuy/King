@@ -1,6 +1,6 @@
-#include <character.h>
+#include "character.h"
 using namespace std;
-Character::Character(string n, int h, int a) : name(n), health(h), attackPower(a);
+Character::Character(string n, int h, int a) : name(n), health(h), attackPower(a) {}
 
 Character::~Character(){}
 

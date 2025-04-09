@@ -1,11 +1,132 @@
 ﻿  battle.cpp
-C:\Users\зеленый 1\Desktop\zAR\gAME\battle.cpp(2,10): error C1083: Не удается открыть файл включение: battle.h: No such file or directory,
+C:\Users\зеленый 1\Desktop\zAR\gAME\battle.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\battle.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9): error C2065: Item: необъявленный идентификатор
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2923: std::vector: "Item" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "battle.cpp")
+      C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9):
+       см. объявление "Item"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "battle.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "battle.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "battle.cpp")
+  
   character.cpp
-C:\Users\зеленый 1\Desktop\zAR\gAME\character.cpp(1,10): error C1083: Не удается открыть файл включение: character.h: No such file or directory,
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "character.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "character.cpp")
+  
   enemy.cpp
-C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.cpp(1,10): error C1083: Не удается открыть файл включение: enemy.h: No such file or directory,
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "enemy.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "enemy.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "enemy.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "enemy.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.cpp(10,13): error C2084: функция "void Enemy::attack(Character &)" уже имеет текст реализации
+      C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.cpp(6,13):
+      см. предыдущее определение "Enemy::attack"
+  
   main.cpp
-C:\Users\зеленый 1\Desktop\zAR\gAME\main.cpp(1,10): error C1083: Не удается открыть файл включение: player.h: No such file or directory,
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9): error C2065: Item: необъявленный идентификатор
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2923: std::vector: "Item" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "main.cpp")
+      C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9):
+       см. объявление "Item"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "main.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\battle.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\battle.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "main.cpp")
+  
   player.cpp
-C:\Users\зеленый 1\Desktop\zAR\gAME\player.cpp(1,10): error C1083: Не удается открыть файл включение: player.h: No such file or directory,
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(1,1): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.h(2,9): error C2008: .: не требуется в макроопределении
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9): error C2065: Item: необъявленный идентификатор
+  (компиляция исходного файла "player.cpp")
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2923: std::vector: "Item" не является допустимым аргументом типа шаблон для параметра "_Ty"
+  (компиляция исходного файла "player.cpp")
+      C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,9):
+       см. объявление "Item"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.h(15,2): error C2976: std::vector: слишком мало аргументов шаблон
+  (компиляция исходного файла "player.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+       см. объявление "std::vector"
+  
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.cpp(4,59): error C2512: std::vector: нет подходящего конструктора по умолчанию
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+       см. объявление "std::vector"
+  
+  shop.cpp
   Создание кода...

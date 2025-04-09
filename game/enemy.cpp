@@ -1,7 +1,10 @@
-#include <enemy.h>
+#include "enemy.h"
 using namespace std;
 
 Enemy::Enemy(string n, int h, int a) : Character(n, h, a) {}
+
+void Enemy::attack(Character& target){
+}
 
 
 void Enemy::attack(Character& target) {

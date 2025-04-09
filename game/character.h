@@ -5,20 +5,25 @@
 using namespace std;
 
 class Character{
-private:
+protected:
 	string name;
 	int health;
 	int attackPower;
 public:
 	Character(string n, int h, int a);
+
 	virtual ~Character();
+
 	virtual void attack(Character& target) = 0;
 
 	void takeDamage(int damage);
 
 	bool isAlive() const;
 
-	string getName() const;
+	string getName();
+
+	int getHealth();
+
 	int getHealth() const;
 };
 #endif

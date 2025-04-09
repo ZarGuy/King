@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#include <player.h>
-#include <enemy.h>
+#include "player.h"
+#include "enemy.h"
 
 void startBattle(Player& player, Enemy& enemy);
 
