@@ -1,0 +1,11 @@
+﻿  battle.cpp
+C:\Users\зеленый 1\Desktop\zAR\gAME\battle.cpp(2,10): error C1083: Не удается открыть файл включение: battle.h: No such file or directory,
+  character.cpp
+C:\Users\зеленый 1\Desktop\zAR\gAME\character.cpp(1,10): error C1083: Не удается открыть файл включение: character.h: No such file or directory,
+  enemy.cpp
+C:\Users\зеленый 1\Desktop\zAR\gAME\enemy.cpp(1,10): error C1083: Не удается открыть файл включение: enemy.h: No such file or directory,
+  main.cpp
+C:\Users\зеленый 1\Desktop\zAR\gAME\main.cpp(1,10): error C1083: Не удается открыть файл включение: player.h: No such file or directory,
+  player.cpp
+C:\Users\зеленый 1\Desktop\zAR\gAME\player.cpp(1,10): error C1083: Не удается открыть файл включение: player.h: No such file or directory,
+  Создание кода...
